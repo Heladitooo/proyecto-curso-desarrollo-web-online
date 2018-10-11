@@ -6,9 +6,13 @@ header
 .menu-font
 {
   font-family: 'press start 2p', agency FB;
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: normal
 }
 
 body
 {
   font-family: 'open sans' , agency FB;
+  text-transform: capitalize
 }
