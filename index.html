@@ -2,57 +2,53 @@
 <html lang="es">
   <head>
     <link rel="icon" type="images/png" href="images/favicon.png"/>
-    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
     <meta charset="UFT-8"/>
     <title>CREA TU CASA</title>
   </head>
   <body>
 
-    <header>
+    <header class="menu">
 
-      <h1>
+      <h1 class="menu-font">
 
-        <p>
-          <img alt="cabesera" src="images/logo.png"/>
+        <p class="menu-paragraphLogo">
+          <img alt="cabesera" src="images/logo.png" class="menu-logo"/>
         </p>
 
-        <nav>
+        <nav class="menu-item">
 
-          <ul>
-            <li>
-              <a href="#plataformas">
+            <li class="menu-listCreate">
+              <a href="#inspirador" class="menu-linkCreate">
                 crea una casa
               </a>
             </li>
-          </ul>
 
-          <ul>
-            <li>
-              <a href="#ejemplos">
+            <li class="menu-listExsamples">
+              <a href="#ejemplos" class="menu-linkExamples">
                 tutoriales
               </a>
             </li>
-          </ul>
 
         </nav>
 
         <strong>TUTORIALES</strong> PARA CREAR <br/><strong>TU CASA!</strong>
 
-        <p>
-          <img alt="hero" src="images/hero.png" width="500"/>
+        <p class="menu-paragraphHero">
+          <img alt="hero" src="images/hero.png" width="500" class="menu-hero"/>
 
         </p>
       </h1>
 
     </header>
 
-      <section id="plataformas">
-        <article>
+      <section id="plataformas" class="start">
+        <article class="start-article">
 
-        <h2>
-          <p>
+        <h2 class="start-font">
+          <p class="start-paragraphInspirador">
             Empieza diseñar tu casa <br/>
-            <img alt="plataformas" src="images/cl.png" width="700"/>
+            <img alt="inspirador" src="images/inspirador.png" width="700" class="start-inspirador"/>
 
             <small>enserio!</small>
           </p>
@@ -61,23 +57,23 @@
         </article>
       </section>
 
-    <section id="ejemplos">
-      <article>
+    <section id="ejemplos" class="examples">
+      <article class="examples-article">
 
-        <p>
-          <h2>
+        <p class="examples-paragraphCat">
+          <h2 class="examples-fonth2">
             Algunos ejemplos
           </h2> <br/>
 
-          <figure>
-            <img alt="ejemplo1" src="images/como hacer que tu casa parezca un gato.jpg" width="300"/>
+          <figure class="examples-figure">
+            <img alt="ejemplo1" src="images/casa para un gato.jpg" width="300" class="examples-ejemplo1"/>
           <figure>
 
-            <h3>
+            <h3 class="examples-fonth3">
               casa para un gato
             </h3>
 
-          <a href="https://www.youtube.com/watch?v=NffpiUx-N_Q" target="_blank">
+          <a href="https://www.youtube.com/watch?v=NffpiUx-N_Q" target="_blank" class="examples-linkYoutube">
             saber mas...
           </a>
         </p>
@@ -85,17 +81,17 @@
       </article>
     </section>
 
-    <section>
+    <section class="submit">
       <form action="/enviar/">
 
-        <label for="mensaje">quieres ayuda?</label>
-        <input type="datetime" placeholder="envianos un mensaje" id="mensaje"/>
-        <button>enviar</button>
+        <label for="message" class="submit-label">quieres ayuda?</label>
+        <input type="datetime" placeholder="envianos un mensaje" id="message" class="submit-mensaje" required/>
+        <button class="submit-button">enviar</button>
 
       </form>
     </section>
 
-    <footer>final</footer>
+    <footer class="footer">final</footer>
 
   </body>
 </html>
