@@ -1,35 +1,53 @@
-header
+.menu
 {
-   background: #0180DA;
-   color: #000000;
-   background-image: url('../images/hero.png');
-   background-size: 480px 450px;
-   background-repeat: no-repeat;
-   background-position-x: right;
-}
-
-.menu-font strong
-{
+  background: #004A7F;
   color: #ffffff;
 }
 
-a
+.hero
 {
-  text-decoration: none;
-}
-
-.menu-font
-{
+  height: 500px;
   font-family: 'press start 2p', agency FB;
   font-size: 40px;
   line-height: 1.5;
   font-weight: normal;
+
+  background: #0180DA;
+  color: #000000;
+
+  background-image: url('../images/hero.png');
+  background-size: 530px 500px;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
+
+.hero strong
+{
+  color: #ffffff;
+}
+
+.menu a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 
 body
 {
   font-family: 'open sans' , agency FB;
   text-transform: capitalize
+}
+
+.start
+{
+  border: 5px solid;
+  border-radius: 10px;
+
+  background-image: url('../images/inspirador.png');
+  background-repeat: no-repeat;
+  background-size: 530px 417px;
+  background-position-x: right;
 }
 
 .start-div
