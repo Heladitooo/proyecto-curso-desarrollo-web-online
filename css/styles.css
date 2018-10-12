@@ -32,8 +32,8 @@
 
 .hero-font
 {
+  box-sizing: border-box;
   margin: 0;
-  padding: 100px;
 }
 
 .hero strong
@@ -57,20 +57,17 @@ body
 
 .start
 {
+  box-sizing: border-box;
   margin-top: 30px;
   border: 5px solid;
   border-radius: 10px;
 
-  background-image: url('../images/inspirador.png');
-  background-repeat: no-repeat;
-  background-size: 530px 360px;
-  background-position-x: right;
 }
 
 .start-div
 {
-  padding-left: 250px;
-  width: 500px
+  padding-left: 228px;
+  width: 500px;
 }
 
 h5
