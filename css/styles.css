@@ -1,12 +1,19 @@
 .menu
 {
+  margin: 0;
   background: #004A7F;
   color: #ffffff;
+
+}
+
+.menu-paragraphLogo
+{
+  margin: 0;
 }
 
 .hero
 {
-  height: 500px;
+  height: 300px;
   font-family: 'press start 2p', agency FB;
   font-size: 40px;
   line-height: 1.5;
@@ -16,9 +23,17 @@
   color: #000000;
 
   background-image: url('../images/hero.png');
-  background-size: 530px 500px;
+  background-size: 390px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
+
+
+}
+
+.hero-font
+{
+  margin: 0;
+  padding: 100px;
 }
 
 .hero strong
@@ -35,22 +50,30 @@
 
 body
 {
+  margin: 0;
   font-family: 'open sans' , agency FB;
   text-transform: capitalize
 }
 
 .start
 {
+  margin-top: 30px;
   border: 5px solid;
   border-radius: 10px;
 
   background-image: url('../images/inspirador.png');
   background-repeat: no-repeat;
-  background-size: 530px 417px;
+  background-size: 530px 360px;
   background-position-x: right;
 }
 
 .start-div
 {
+  padding-left: 250px;
   width: 500px
+}
+
+h5
+{
+  margin: 0;
 }
