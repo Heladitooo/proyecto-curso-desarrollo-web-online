@@ -16,3 +16,8 @@ body
   font-family: 'open sans' , agency FB;
   text-transform: capitalize
 }
+
+.start-div
+{
+  width: 500px
+}
